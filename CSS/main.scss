@@ -49,6 +49,7 @@
   overflow: hidden;
   color: $text-clr;
   margin-bottom: 0.5em;
+  padding-left: 7.73vw;
 }
 
 .main-headline:nth-of-type(1) {
@@ -152,33 +153,6 @@
 
 /////cards end
 
-//// about
-.about-text {
-  display: flex;
-  width: 84.5vw;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
-  p {
-    padding-left: 7.73vw;
-  }
-}
-.headline,
-.cases-headline {
-  font-size: clamp(1rem, 7.5vw, 3.5rem);
-  font-weight: 600;
-  letter-spacing: -0.055em;
-  line-height: 91.8%;
-  margin-bottom: 13.6vw;
-}
-
-.cases-headline {
-  padding-top: 13.6vw;
-}
-
-.color-text {
-  color: $accent-clr;
-}
 
 // slider text
 // @keyframes bannermove {

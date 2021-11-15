@@ -2,7 +2,7 @@
 .btn {
   color: #fff;
   background-color: transparent;
-  padding: 3vw 0;
+  padding: 2vw 0;
   text-transform: uppercase;
   border: 1px solid #12f3f3;
   -webkit-transition: 0.6s;
@@ -449,6 +449,39 @@ header {
   color: #12f3f3;
 }
 
+.about-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 84.5vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about-text p {
+  padding-left: 7.73vw;
+}
+
+.headline,
+.cases-headline {
+  font-size: clamp(1rem, 7.5vw, 3.5rem);
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 91.8%;
+  margin-bottom: 5vw;
+}
+
+.cases-headline {
+  padding-top: 13.6vw;
+}
+
+.color-text {
+  color: #12f3f3;
+}
+
 .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -596,6 +629,19 @@ header {
   .text {
     font-size: 2.5vw;
   }
+  .credit-text {
+    font-size: 2vw;
+  }
+  .headline,
+  .cases-headline {
+    padding-left: 7.73vw;
+  }
+  .skills-list {
+    width: 40vw;
+  }
+  .skills-item {
+    font-size: 2.73vw;
+  }
 }
 
 *,
@@ -653,6 +699,7 @@ header {
   overflow: hidden;
   color: #fff;
   margin-bottom: 0.5em;
+  padding-left: 7.73vw;
 }
 
 .main-headline:nth-of-type(1) {
@@ -678,39 +725,6 @@ header {
 
 .so-many-shadows {
   text-shadow: 0.025em 0.025em 0 tomato, 0.05em 0.05em 0 blueviolet, 0.075em 0.075em 0 teal, 0.1em 0.1em 0 black;
-}
-
-.about-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 84.5vw;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.about-text p {
-  padding-left: 7.73vw;
-}
-
-.headline,
-.cases-headline {
-  font-size: clamp(1rem, 7.5vw, 3.5rem);
-  font-weight: 600;
-  letter-spacing: -0.055em;
-  line-height: 91.8%;
-  margin-bottom: 13.6vw;
-}
-
-.cases-headline {
-  padding-top: 13.6vw;
-}
-
-.color-text {
-  color: #12f3f3;
 }
 
 .about-pic {

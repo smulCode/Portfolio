@@ -54,6 +54,7 @@ header {
 .section-headline {
   margin-bottom: 8.6vw;
   font-size: 3.73vw;
+  
 }
 
 .section-headline::before {
@@ -78,6 +79,38 @@ header {
 //   background-color: #fffa;
 //   margin-left:0.5rem;
 // }
+
+
+
+
+//// about
+.about-text {
+  display: flex;
+  width: 84.5vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  p {
+    padding-left: 7.73vw;
+  }
+}
+.headline,
+.cases-headline {
+  font-size: clamp(1rem, 7.5vw, 3.5rem);
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 91.8%;
+  margin-bottom: 5vw;
+  
+}
+
+.cases-headline {
+  padding-top: 13.6vw;
+}
+
+.color-text {
+  color: $accent-clr;
+}
 
 .footer-container {
   display: flex;
@@ -135,4 +168,5 @@ header {
 
 .credit-text {
   margin-bottom: 1rem;
+  
 }
