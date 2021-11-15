@@ -2,28 +2,30 @@
 .btn {
   color: #fff;
   background-color: transparent;
-  padding: 0.6rem 0;
+  padding: 3vw 0;
   text-transform: uppercase;
-  border: 1px solid #fff;
+  border: 1px solid #12f3f3;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   cursor: pointer;
   text-align: center;
-  width: 6rem;
+  width: 20vw;
 }
 
 .btn a {
   color: #fff;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 2vw;
 }
 
 .btn:hover {
-  background-color: #fff;
+  background-color: #12f3f3;
+  outline: 2px solid #fff;
+  outline-offset: -0.3rem;
 }
 
 .btn:hover a {
-  color: #4e4e4e;
+  color: #fff;
   -webkit-transition: 0.1s;
   transition: 0.1s;
   font-weight: 600;
@@ -43,7 +45,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 2rem 1.5rem;
+  padding: 1rem 1.5rem;
   background-color: transparent;
 }
 
@@ -164,7 +166,7 @@
 
 .type-writer-container {
   padding: 0 0.5rem;
-  margin: 0 auto;
+  margin: 0;
   font-family: monospace, sans-serif;
   min-height: 50vh;
   display: -ms-grid;
@@ -444,11 +446,7 @@ header {
   margin-right: 0.5rem;
   margin-left: 1vw;
   font-weight: 700;
-  color: goldenrod;
-}
-
-footer {
-  height: 21vh;
+  color: #12f3f3;
 }
 
 .footer-container {
@@ -462,7 +460,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 42vw;
+  margin-bottom: 2vw;
   margin-left: auto;
   margin-right: auto;
   width: 85vw;
@@ -490,9 +488,23 @@ footer {
   font-size: 3.73vw;
 }
 
+.iconify:hover {
+  color: #12f3f3;
+}
+
+.footer-contact-item {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-contact-item:hover {
+  color: #12f3f3;
+  -webkit-transform: translateY(-13px);
+          transform: translateY(-13px);
+}
+
 .footer-credits {
   margin: 0 auto;
-  font-size: 3.73vw;
 }
 
 .text {
@@ -504,7 +516,11 @@ footer {
   width: 81vw;
 }
 
-@media only screen and (min-width: 1080px) {
+.credit-text {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 960px) {
   header {
     z-index: 90;
     position: fixed;
@@ -570,9 +586,15 @@ footer {
     transition: 0.4s;
     font-size: 1em;
   }
+  .type-writer-container {
+    margin: 0 auto;
+  }
   .cases {
     margin-bottom: 11.6vw;
     min-height: 100vh;
+  }
+  .text {
+    font-size: 2.5vw;
   }
 }
 
@@ -688,7 +710,7 @@ footer {
 }
 
 .color-text {
-  color: goldenrod;
+  color: #12f3f3;
 }
 
 .about-pic {
@@ -741,7 +763,7 @@ footer {
 }
 
 .skills .iconify {
-  color: goldenrod;
+  color: #12f3f3;
   margin-right: 0.3rem;
 }
 
@@ -777,10 +799,11 @@ footer {
 
 .nav-logo.nav-scrolled {
   text-shadow: 0 3px 20px rgba(255, 255, 255, 0.2);
-  text-shadow: 0.025em 0.025em 0 tomato, 0.05em 0.05em 0 blueviolet, 0.075em 0.075em 0 teal, 0.1em 0.1em 0 black;
 }
 
-.nav-scrolled {
-  background-color: goldenrod;
+header.nav-scrolled {
+  background-color: #12f3f3;
+  -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=main.css.map */

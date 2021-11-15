@@ -1,5 +1,3 @@
-$font-stack: "Montserrat", sans-serif;
-
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -41,8 +39,7 @@ header {
 }
 
 .section-about,
-.cases
-{
+.cases {
   min-height: 100vh;
 }
 .contact {
@@ -56,8 +53,7 @@ header {
 
 .section-headline {
   margin-bottom: 8.6vw;
-  font-size: 3.73vw; ;
-  
+  font-size: 3.73vw;
 }
 
 .section-headline::before {
@@ -66,9 +62,9 @@ header {
   counter-increment: section 1;
   content: "0" counter(section) ".";
   margin-right: 0.5rem;
-  margin-left: 1vw ;
+  margin-left: 1vw;
   font-weight: 700;
-  color: goldenrod;
+  color: $accent-clr;
 }
 
 // .section-headline::after {
@@ -83,15 +79,11 @@ header {
 //   margin-left:0.5rem;
 // }
 
-footer {
-  height: 21vh;
-}
-
 .footer-container {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin-bottom: 42vw;
+  margin-bottom: 2vw;
   margin-left: auto;
   margin-right: auto;
   width: 85vw;
@@ -114,11 +106,23 @@ footer {
 .iconify {
   color: $text-clr;
   font-size: 3.73vw;
+
+  &:hover {
+    color: $accent-clr;
+  }
+}
+
+.footer-contact-item {
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: $accent-clr;
+    transform: translateY(-13px);
+  }
 }
 
 .footer-credits {
   margin: 0 auto;
-  
 }
 .text {
   font-size: 3.73vw;
@@ -127,4 +131,8 @@ footer {
   margin-bottom: 11.2vw;
   opacity: 0.85;
   width: 81vw;
+}
+
+.credit-text {
+  margin-bottom: 1rem;
 }

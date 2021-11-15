@@ -1,11 +1,11 @@
-@import "./assets/colors";
-@import "./assets/buttons";
-@import "./assets/navbar";
-@import "./assets/animation";
-@import "./assets/cards";
-@import "./assets/layout";
-@import "./assets/mediaqueries";
-
+@import "../assets/colors";
+@import "../assets/variables";
+@import "../assets/buttons";
+@import "../assets/navbar";
+@import "../assets/animation";
+@import "../assets/cards";
+@import "../assets/layout";
+@import "../assets/mediaqueries";
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800;900&display=swap");
 
@@ -262,10 +262,11 @@
 
 .nav-logo.nav-scrolled {
   text-shadow: 0 3px 20px rgba(#fff, 0.2);
-  text-shadow: 0.025em 0.025em 0 tomato, 0.05em 0.05em 0 blueviolet,
-    0.075em 0.075em 0 teal, 0.1em 0.1em 0 black;
+  // text-shadow: 0.025em 0.025em 0 tomato, 0.05em 0.05em 0 blueviolet,
+  //   0.075em 0.075em 0 teal, 0.1em 0.1em 0 black;
 }
 
-.nav-scrolled {
+header.nav-scrolled {
   background-color: $accent-clr;
+  box-shadow: 0 3px 20px rgba(#000, 0.2);
 }

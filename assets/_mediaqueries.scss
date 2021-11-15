@@ -1,5 +1,5 @@
 //DESKTOP
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 960px) {
   header {
     z-index: 90;
     position: fixed;
@@ -60,9 +60,15 @@
     font-size: 1em;
   }
 
+  .type-writer-container {
+    margin: 0 auto;
+  }
   .cases {
     margin-bottom: 11.6vw;
     min-height: 100vh;
   }
 
+  .text {
+    font-size: 2.5vw;
+  }
 }
