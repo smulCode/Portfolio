@@ -1,0 +1,68 @@
+//DESKTOP
+@media only screen and (min-width: 1080px) {
+  header {
+    z-index: 90;
+    position: fixed;
+    width: 100%;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    // background-color: rgba(17, 17, 17, 0.438);
+    background-color: transparent;
+    height: 4em;
+  }
+
+  .navbar:hover {
+    background-color: #111;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: unset;
+    flex-direction: row;
+    background-color: transparent;
+    text-align: center;
+    height: 100%;
+    box-shadow: none;
+    width: 60%;
+  }
+
+  //main
+
+  .nav-logo {
+    width: 100%;
+  }
+
+  .nav-item {
+    margin-left: none;
+    border: none;
+  }
+
+  .nav-link {
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  .nav-link:hover {
+    border-bottom: 2px solid #fff;
+    transition: 0.4s;
+    font-size: 1em;
+  }
+
+  .cases {
+    margin-bottom: 11.6vw;
+    min-height: 100vh;
+  }
+
+}
