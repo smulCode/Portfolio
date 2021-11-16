@@ -65,20 +65,20 @@
   }
   .cases {
     margin-bottom: 11.6vw;
-    min-height:100vh;
+    min-height: 100vh;
   }
 
   .text {
     font-size: 2.5vw;
   }
 
-  .credit-text{
-    font-size:2vw;
+  .credit-text {
+    font-size: 2vw;
   }
   .headline,
   .cases-headline {
-  padding-left: 7.73vw;}
-
+    padding-left: 7.73vw;
+  }
 
   .skills-list {
     width: 40vw;
@@ -87,36 +87,21 @@
     font-size: 2.73vw;
   }
 
-
-  .container-case{
+  .container-case {
     padding: 0 1vw;
-  
-  
-  
   }
-  .bg-cases{
-    height:300vh;
-    
+  .bg-cases {
+    height: 300vh;
   }
-
 }
 
-
 @media only screen and (min-width: 1240px) {
-
-  .container-case{
+  .container-case {
     padding: 0 8vw;
-  
-  
-  
   }
 }
 @media only screen and (min-width: 1440px) {
-
-  .container-case{
+  .container-case {
     padding: 0 10vw;
-  
-  
-  
   }
 }

@@ -46,7 +46,7 @@
 .resume-btn a {
   color: #fff;
   font-weight: 500;
-  font-size: 1vw;
+  font-size: 1rem;
 }
 
 .resume-btn:hover {
@@ -84,7 +84,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #111;
+  background: rgba(247, 247, 247, 0.25);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   width: 100%;
   border-radius: 0px 0px 3px 3px;
   -webkit-transition: 0.5s;
@@ -167,7 +169,6 @@
   font-weight: 600;
   color: #fff;
   z-index: 4;
-  text-shadow: 0 10px 27px rgba(0, 0, 0, 0.89);
 }
 
 .hamburger {
@@ -400,7 +401,8 @@
     width: 13rem;
     margin-left: 0.1rem;
   }
-  .bg-color-rect, .showcase-content {
+  .bg-color-rect,
+  .showcase-content {
     display: none;
   }
 }
@@ -419,6 +421,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 5rem;
 }
 
 .profile-pic {
@@ -1019,10 +1022,6 @@ header {
 
 .skills-item:nth-of-type(2) {
   margin-right: 0.9vw;
-}
-
-.nav-logo.nav-scrolled {
-  text-shadow: 0 3px 20px rgba(255, 255, 255, 0.2);
 }
 
 header.nav-scrolled {
