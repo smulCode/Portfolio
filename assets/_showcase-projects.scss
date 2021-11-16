@@ -1,4 +1,4 @@
-
+@media only screen and (min-width: 960px) {
 .case-list{
     display:flex;
     justify-content:space-between;
@@ -11,6 +11,7 @@
 
 .case-item{
     margin-bottom:33rem;
+ 
   }
 
   
@@ -120,4 +121,5 @@
     }
 
 
- 
+   
+    }

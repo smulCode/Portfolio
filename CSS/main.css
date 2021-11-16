@@ -328,6 +328,83 @@
   }
 }
 
+@media only screen and (max-width: 960px) {
+  .container-case {
+    padding-top: 1em;
+  }
+  .case-item {
+    margin: 1em;
+  }
+  .card {
+    height: 350px;
+    width: 250px;
+    background: rgba(247, 247, 247, 0.25);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    border-radius: 13px;
+    -webkit-box-shadow: 0 3px 20px rgba(17, 17, 17, 0.2);
+            box-shadow: 0 3px 20px rgba(17, 17, 17, 0.2);
+    margin: 0 auto;
+  }
+  .card-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .img-size {
+    height: 280px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    border-radius: 13px 13px 0 0;
+  }
+  .card-text {
+    position: relative;
+    margin: 0 1em;
+  }
+  .card-titel {
+    font-size: 3em;
+    position: absolute;
+    bottom: 1.5em;
+    left: -33px;
+    font-weight: bold;
+  }
+  .card-category {
+    margin-top: 0.5rem;
+  }
+  .card-link {
+    color: white;
+    background: transparent;
+  }
+  .card-link .iconify {
+    font-size: 1.5rem;
+    margin-bottom: -0.4rem;
+    margin-left: 0.1rem;
+  }
+  .card-link-options {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 0.6rem;
+    width: 13rem;
+    margin-left: 0.1rem;
+  }
+  .bg-color-rect, .showcase-content {
+    display: none;
+  }
+}
+
 .about-pic {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -427,139 +504,127 @@
   }
 }
 
-.case-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.case-item {
-  margin-bottom: 33rem;
-}
-
-.card {
-  position: absolute;
-  height: 350px;
-  width: 250px;
-  background: rgba(247, 247, 247, 0.25);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  border-radius: 13px;
-  -webkit-box-shadow: 0 3px 20px rgba(17, 17, 17, 0.2);
-          box-shadow: 0 3px 20px rgba(17, 17, 17, 0.2);
-  top: 10rem;
-  left: 4.5vw;
-  z-index: 3;
-}
-
-.card-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.img-size {
-  height: 280px;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: relative;
-  border-radius: 13px 13px 0 0;
-}
-
-.card-text {
-  position: relative;
-  margin: 0 1em;
-}
-
-.card-titel {
-  font-size: 3em;
-  position: absolute;
-  bottom: 1.5em;
-  left: -33px;
-  font-weight: bold;
-}
-
-.card-category {
-  margin-top: 0.5rem;
-}
-
-.card-link {
-  color: white;
-  background: transparent;
-}
-
-.card-link .iconify {
-  font-size: 1.5rem;
-  margin-bottom: -0.4rem;
-  margin-left: 0.1rem;
-}
-
-.card-link-options {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 0.6rem;
-  width: 13rem;
-  margin-left: 0.1rem;
-}
-
-.showcase-container {
-  position: relative;
-  margin: 1em;
-}
-
-.showcase-size {
-  height: 360px;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  margin-bottom: -3px;
-  border-radius: 13px 13px 0 0;
-}
-
-.showcase-content {
-  position: absolute;
-  right: 3.5vw;
-  background: rgba(247, 247, 247, 0.25);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  border-radius: 13px;
-  outline: 1rem solid rgba(247, 247, 247, 0.25);
-  z-index: 2;
-}
-
-.bg-color-rect {
-  position: absolute;
-  z-index: 1;
-  background: rgba(247, 247, 247, 0.25);
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  border-radius: 13px;
-  -webkit-box-shadow: 0 3px 20px rgba(17, 17, 17, 0.2);
-          box-shadow: 0 3px 20px rgba(17, 17, 17, 0.2);
-  height: 380px;
-  width: 100%;
-  border-radius: 13px;
-  -webkit-transform: skewY(-20deg);
-          transform: skewY(-20deg);
+@media only screen and (min-width: 960px) {
+  .case-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .case-item {
+    margin-bottom: 33rem;
+  }
+  .card {
+    position: absolute;
+    height: 350px;
+    width: 250px;
+    background: rgba(247, 247, 247, 0.25);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    border-radius: 13px;
+    -webkit-box-shadow: 0 3px 20px rgba(17, 17, 17, 0.2);
+            box-shadow: 0 3px 20px rgba(17, 17, 17, 0.2);
+    top: 10rem;
+    left: 4.5vw;
+    z-index: 3;
+  }
+  .card-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .img-size {
+    height: 280px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    border-radius: 13px 13px 0 0;
+  }
+  .card-text {
+    position: relative;
+    margin: 0 1em;
+  }
+  .card-titel {
+    font-size: 3em;
+    position: absolute;
+    bottom: 1.5em;
+    left: -33px;
+    font-weight: bold;
+  }
+  .card-category {
+    margin-top: 0.5rem;
+  }
+  .card-link {
+    color: white;
+    background: transparent;
+  }
+  .card-link .iconify {
+    font-size: 1.5rem;
+    margin-bottom: -0.4rem;
+    margin-left: 0.1rem;
+  }
+  .card-link-options {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 0.6rem;
+    width: 13rem;
+    margin-left: 0.1rem;
+  }
+  .showcase-container {
+    position: relative;
+    margin: 1em;
+  }
+  .showcase-size {
+    height: 360px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-bottom: -3px;
+    border-radius: 13px 13px 0 0;
+  }
+  .showcase-content {
+    position: absolute;
+    right: 3.5vw;
+    background: rgba(247, 247, 247, 0.25);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    border-radius: 13px;
+    outline: 1rem solid rgba(247, 247, 247, 0.25);
+    z-index: 2;
+  }
+  .bg-color-rect {
+    position: absolute;
+    z-index: 1;
+    background: rgba(247, 247, 247, 0.25);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    border-radius: 13px;
+    -webkit-box-shadow: 0 3px 20px rgba(17, 17, 17, 0.2);
+            box-shadow: 0 3px 20px rgba(17, 17, 17, 0.2);
+    height: 380px;
+    width: 100%;
+    border-radius: 13px;
+    -webkit-transform: skewY(-20deg);
+            transform: skewY(-20deg);
+  }
 }
 
 html {
@@ -597,10 +662,6 @@ header {
   margin-left: auto;
   margin-right: auto;
   width: 84.5vw;
-}
-
-.container-case {
-  padding: 0 9vw;
 }
 
 .section-about,
@@ -822,6 +883,24 @@ header {
   }
   .skills-item {
     font-size: 2.73vw;
+  }
+  .container-case {
+    padding: 0 1vw;
+  }
+  .bg-cases {
+    height: 300vh;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .container-case {
+    padding: 0 8vw;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container-case {
+    padding: 0 10vw;
   }
 }
 
