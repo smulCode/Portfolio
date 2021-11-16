@@ -672,9 +672,6 @@ header {
     background-color: transparent;
     height: 4em;
   }
-  .navbar:hover {
-    background-color: #111;
-  }
   .hamburger {
     display: none;
   }
@@ -803,10 +800,6 @@ header {
 
 .main-headline:nth-of-type(1) {
   margin-bottom: -0.4em;
-}
-
-.main-video {
-  z-index: -2;
 }
 
 .bg-cases {

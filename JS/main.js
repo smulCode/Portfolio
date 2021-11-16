@@ -23,8 +23,6 @@ function closeMenu() {
 //navbar scroll events
 
 const header = document.querySelector("header");
-// const header = document.querySelector(".bar");
-const navLogo = document.querySelector(".nav-logo");
 const sectionOne = document.querySelector(".section-hero");
 
 const faders = document.querySelectorAll(".fade-in");
@@ -40,10 +38,8 @@ const sectionOneObservers = new IntersectionObserver(function (
   entries.forEach((entry) => {
     if (!entry.isIntersecting) {
       header.classList.add("nav-scrolled");
-      navLogo.classList.add("nav-scrolled");
     } else {
       header.classList.remove("nav-scrolled");
-      navLogo.classList.remove("nav-scrolled");
     }
   });
 },
