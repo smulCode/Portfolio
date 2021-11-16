@@ -31,3 +31,29 @@
 .connect-btn {
   margin-left: 7.73vw;
 }
+
+.resume-btn {
+  padding: 1rem 0;
+  width: 8rem;
+  background-color: $accent-clr;
+  outline: 2px solid $text-clr;
+  outline-offset: -0.3rem;
+
+  a {
+    color: $text-clr;
+    font-weight: 500;
+    font-size: 1vw;
+  }
+
+  &:hover {
+    background-color: $primary-color;
+    outline: 2px solid $accent-clr;
+    outline-offset: -0.3rem;
+
+    a {
+      color: $text-clr;
+      transition: 0.1s;
+      font-weight: 600;
+    }
+  }
+}
