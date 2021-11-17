@@ -808,7 +808,7 @@ header {
   }
 
   .fixed-contact-item {
-    margin: 1em 0;
+    margin: 1.5rem 0;
     transition: all 0.3s ease-in-out;
   }
   .fixed-contact-item:hover {
@@ -816,7 +816,7 @@ header {
     transform: translateY(-13px);
   }
   .fixed-contact-item .iconify {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .footer-contact-content {
@@ -897,7 +897,7 @@ header {
 
 .main-headline {
   font-weight: 700;
-  font-size: clamp(2.5rem, 12vw, 3.3rem);
+  font-size: clamp(2.5rem, 12vw, 8.3rem);
   overflow: hidden;
   color: #fff;
   margin-bottom: 0.5em;
