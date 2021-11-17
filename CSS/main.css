@@ -868,6 +868,20 @@ header {
   .skills-container {
     width: 30vw;
   }
+
+  .skills-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .skills-item {
+    margin: 1.2rem 0;
+  }
+  .skills-item p {
+    opacity: 0.9;
+    font-size: 1rem;
+  }
 }
 @media only screen and (min-width: 1240px) {
   .container-case {
