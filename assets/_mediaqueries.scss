@@ -92,7 +92,7 @@
     padding: 0 1vw;
   }
   .bg-cases {
-    height: 300vh;
+    min-height: 250vh;
   }
 
   .fixed-contact-content{
@@ -176,6 +176,11 @@
   .container-case {
     padding: 0 8vw;
   }
+  .bg-cases {
+    min-height: 200vh;
+  }
+
+ 
 }
 @media only screen and (min-width: 1440px) {
   .container-case {

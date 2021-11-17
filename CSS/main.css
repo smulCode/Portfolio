@@ -592,7 +592,7 @@ header {
 
 .cases {
   margin-bottom: 14.6vw;
-  min-height: 200vh;
+  min-height: 170vh;
 }
 
 .section-headline {
@@ -789,7 +789,7 @@ header {
   }
 
   .bg-cases {
-    height: 300vh;
+    min-height: 250vh;
   }
 
   .fixed-contact-content {
@@ -857,6 +857,10 @@ header {
   .container-case {
     padding: 0 8vw;
   }
+
+  .bg-cases {
+    min-height: 200vh;
+  }
 }
 @media only screen and (min-width: 1440px) {
   .container-case {
@@ -915,7 +919,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200vh;
+  height: 150vh;
   background-attachment: fixed;
   background-attachment: fixed;
 }
