@@ -1,3 +1,6 @@
+
+
+
 //DESKTOP
 @media only screen and (min-width: 960px) {
   header {
@@ -61,9 +64,7 @@
     font-size: 1em;
   }
 
-  .type-writer-container {
-    margin: 0 auto;
-  }
+ 
   .cases {
     margin-bottom: 11.6vw;
     min-height: 100vh;
@@ -78,7 +79,7 @@
   }
   .headline,
   .cases-headline {
-    padding-left: 7.73vw;
+    padding-left: 1vw;
   }
 
   
@@ -164,6 +165,7 @@
     }
 }
 
+
 .about-text{
   display:flex;
   justify-content:flex-start;
@@ -215,7 +217,7 @@
     padding: 0 8vw;
   }
   .bg-cases {
-    min-height: 200vh;
+    min-height: 245vh;
   }
 
  
@@ -223,5 +225,9 @@
 @media only screen and (min-width: 1440px) {
   .container-case {
     padding: 0 10vw;
+  }
+
+  .bg-cases {
+    min-height: 255vh;
   }
 }

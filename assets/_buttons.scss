@@ -32,12 +32,15 @@
   margin-left: 7.73vw;
 }
 
+
+
 .resume-btn {
-  padding: 1rem 0;
+  padding: 1em 0;
   width: 8rem;
   background-color: $accent-clr;
-  outline: 2px solid $text-clr;
+  outline:  0.05rem solid $text-clr;
   outline-offset: -0.3rem;
+  margin-left: 1em;
 
   a {
     color: $text-clr;

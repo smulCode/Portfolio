@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.2rem;
-    background-color: $transparent;
+    
   }
   
   .nav-menu {
@@ -20,6 +20,8 @@
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     height: 100vh;
     justify-content: flex-start;
+    
+    
   }
   
   .bar {
@@ -35,7 +37,7 @@
   .bar:nth-of-type(2) {
     display: block;
     width: 2.0rem;
-    height: 0.13rem;
+    height: 0.15rem;
     margin: 0.5rem auto;
     margin-right: 0;
     transition: all 0.3s ease-in-out;
@@ -44,7 +46,7 @@
   .bar:nth-of-type(3) {
     display: block;
     width: 1.5rem;
-    height: 0.13rem;
+    height: 0.16rem;
     margin: 0.5rem auto;
     margin-right: 0;
     transition: all 0.3s ease-in-out;
@@ -63,6 +65,7 @@
   .nav-item {
     border-top: 1px solid rgba(204, 204, 204, 0.774);
     padding: 1em;
+    padding-left:2em;
   }
   .nav-link {
     font-size: 1.4rem;
@@ -106,3 +109,4 @@
     transform: translateY(-0.8rem) rotate(-45deg);
     width: 2.5rem;
   }
+
