@@ -133,7 +133,7 @@ header {
 
 .iconify {
   color: $text-clr;
-  font-size: 3.73vw;
+  font-size: 1.5rem;
 
   &:hover {
     color: $accent-clr;
@@ -163,4 +163,11 @@ header {
 
 .credit-text {
   margin-bottom: 1rem;
+}
+
+
+.fixed-contact-content,
+.fixed-email-right{
+display: none;
+ 
 }
