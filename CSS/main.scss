@@ -39,7 +39,7 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: column;
   bottom: 0;
 }
@@ -204,7 +204,8 @@
   background-color: $accent-clr;
   box-shadow: 0 3px 20px rgba(#000, 0.2);
   
-span{
+span,
+.nav-logo{
   color: $text-clr;
 }
 
@@ -221,3 +222,4 @@ span{
 .fade-in.appear {
   opacity: 1;
 }
+

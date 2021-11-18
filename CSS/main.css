@@ -146,12 +146,6 @@
   float: right;
 }
 
-.nav-link:hover {
-  color: #fff;
-  transition: 0.4s;
-  border-bottom: 1px solid #fff;
-}
-
 .nav-logo {
   font-size: 1.5rem;
   font-weight: 600;
@@ -176,6 +170,41 @@
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-0.8rem) rotate(-45deg);
   width: 2.5rem;
+}
+
+/* Underline styles */
+.nav-link {
+  display: block;
+  position: relative;
+  padding: 0.2em 0;
+  /* Fade in */
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: #fff;
+  opacity: 0;
+  transition: opacity 1500ms, transform 1500ms;
+}
+.nav-link:hover::after, .nav-link:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+
+/* Slide in */
+.nav-link {
+  overflow: hidden;
+}
+.nav-link::after {
+  opacity: 1;
+  transform: translate3d(-100%, 0, 0);
+}
+.nav-link:hover::after, .nav-link:focus::after {
+  transform: translate3d(100%, 0, 0);
 }
 
 .type-writer-container {
@@ -286,6 +315,37 @@
     opacity: 1;
   }
 }
+@-webkit-keyframes color-rotate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+@keyframes color-rotate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+.nav-logo {
+  color: #ffc140;
+}
+
+.color-text:hover,
+.nav-logo:hover {
+  -webkit-animation: color-rotate 1s;
+          animation: color-rotate 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 960px) {
   .container-case {
     padding-top: 1em;
@@ -602,7 +662,7 @@ header {
 
 .section-headline {
   margin: 8.6vw 0;
-  font-size: 2rem;
+  font-size: 1.54rem;
 }
 
 .section-headline::before {
@@ -768,12 +828,6 @@ header {
     color: #fff;
   }
 
-  .nav-link:hover {
-    border-bottom: 2px solid #fff;
-    transition: 0.4s;
-    font-size: 1em;
-  }
-
   .cases {
     margin-bottom: 11.6vw;
     min-height: 100vh;
@@ -929,6 +983,11 @@ header {
     padding-left: 7rem;
     padding-top: 2rem;
   }
+
+  .main-block {
+    position: relative;
+    height: 100vh;
+  }
 }
 @media only screen and (min-width: 1240px) {
   .container-case {
@@ -975,7 +1034,7 @@ header {
   position: absolute;
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: column;
   bottom: 0;
 }
@@ -1066,7 +1125,8 @@ header {
   background-color: #ffc140;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 }
-.nav-scrolled span {
+.nav-scrolled span,
+.nav-scrolled .nav-logo {
   color: #fff;
 }
 
