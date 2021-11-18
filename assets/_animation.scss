@@ -74,14 +74,7 @@ $type-characters: 25;
 //type-writer end
 
 //fade-in
-.fade-in {
-  opacity: 0;
-  transition: opacity 400ms ease-in-out;
-}
 
-.fade-in.appear {
-  opacity: 1;
-}
 
 //keyframe
 

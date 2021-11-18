@@ -99,7 +99,8 @@
 ////////////////////////////////
 
 .so-many-shadows {
-  text-shadow: 0.025em 0.025em 0 tomato, 0.05em 0.05em 0 blueviolet,
+  text-shadow: 0.025em 0.025em 0 tomato,
+   0.05em 0.05em 0 blueviolet,
     0.075em 0.075em 0 teal, 0.1em 0.1em 0 black;
 }
 
@@ -212,3 +213,11 @@ span{
 
 /// 
 
+.fade-in {
+  opacity: 0;
+  transition: opacity 400ms ease-in-out;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}

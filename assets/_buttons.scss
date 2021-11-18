@@ -30,6 +30,21 @@
 
 .connect-btn {
   margin-left: 7.73vw;
+  background-color: $primary-color;
+    outline: 2px solid $primary-color;
+    outline-offset: -0.3rem;
+
+    &:hover {
+      background-color: $accent-clr;
+    outline:none;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+  
+      a {
+        color: $text-clr;
+        transition: 0.1s;
+        font-weight: 600;
+      }
+    }
 }
 
 
