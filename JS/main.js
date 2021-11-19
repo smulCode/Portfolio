@@ -50,7 +50,7 @@ sectionOneObservers.observe(sectionOne);
 //fade-in content
 const appearOptions = {
   threshold: 1,
-  rootMargin: "0px 0px -130px 0px",
+  rootMargin: "0px 0px -120px 0px",
 };
 
 const appearOnScroll = new IntersectionObserver(function (
@@ -71,3 +71,7 @@ appearOptions);
 faders.forEach((fader) => {
   appearOnScroll.observe(fader);
 });
+
+
+//theme switcher
+

@@ -82,6 +82,7 @@
 .profile-pic {
   display: block;
   max-width: 100%;
+ 
 }
 
 .stack-picture {
@@ -91,10 +92,10 @@
   &:hover {
     transform: rotate(5deg);
     .card:before {
-      transform: translatey(-2%) rotate(-4deg);
+      transform: translateY(-2%) rotate(-4deg);
     }
     .card:after {
-      transform: translatey(2%) rotate(4deg);
+      transform: translateY(2%) rotate(4deg);
     }
   }
 }
