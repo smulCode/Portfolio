@@ -256,30 +256,33 @@
 
   }
 }
-.bg-block{
-  position: relative;
-  overflow: hidden;
-  // height: 100vh;
+// .bg-block{
+//   position: relative;
+//   overflow: hidden;
+//   // height: 100vh;
+//   border: 1px solid red;
  
 
 
-}
-.color-block{
-  position: absolute;
-  // border-radius:0% 100% 10% 100% / 100% 100% 0% 100% ;
-  background-color:$accent-clr;
-  height: 90%;;
-  width: 55%;
-  right:15%;
-  bottom: 0%;
-  z-index: -3;
-   box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
-  // transform: skew(-6deg)
-  transform:rotate(10deg);
+// }
+// .color-block{
+//   position: absolute;
+//   // border-radius:0% 100% 10% 100% / 100% 100% 0% 100% ;
+//   background-color:$accent-clr;
+//   height: 60%;;
+//   width: 55%;
+//   right:15%;
+//   top:10%;
+//   z-index: -3;
+//    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+   
+
+//   // transform: skew(-6deg)
+//   transform:rotate(10deg);
 
 
 
-}
+// }
 
 .container-contact{
   display:flex;

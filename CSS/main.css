@@ -4,7 +4,7 @@
   background-color: transparent;
   padding: 2vw 0;
   text-transform: uppercase;
-  border: 1px solid #ffc140;
+  border: 1px solid #E79B25;
   transition: 0.6s;
   cursor: pointer;
   text-align: center;
@@ -17,7 +17,7 @@
 }
 
 .btn:hover {
-  background-color: #ffc140;
+  background-color: #E79B25;
   outline: 2px solid #fff;
   outline-offset: -0.3rem;
 }
@@ -34,9 +34,10 @@
   outline-offset: -0.3rem;
 }
 .connect-btn:hover {
-  background-color: #ffc140;
-  outline: none;
-  box-shadow: blue 0px 0px 0px 2px inset, white 10px -10px 0px -3px, #1fc11b 10px -10px, white 20px -20px 0px -3px, #ffd913 20px -20px, white 30px -30px 0px -3px, #ff9c55 30px -30px, white 40px -40px 0px -3px, #ff5555 40px -40px;
+  background-color: #E79B25;
+  border: 1px solid #111;
+  outline-offset: -1px;
+  box-shadow: rgba(231, 155, 37, 0.4) 5px 5px, rgba(231, 155, 37, 0.3) 10px 10px, rgba(231, 155, 37, 0.2) 15px 15px, rgba(231, 155, 37, 0.1) 20px 20px, rgba(231, 155, 37, 0.05) 25px 25px;
 }
 .connect-btn:hover a {
   color: #fff;
@@ -47,7 +48,7 @@
 .resume-btn {
   padding: 1em 0;
   width: 8rem;
-  background-color: #ffc140;
+  background-color: #E79B25;
   outline: 0.05rem solid #fff;
   outline-offset: -0.3rem;
   margin-left: 1em;
@@ -59,7 +60,7 @@
 }
 .resume-btn:hover {
   background-color: #111;
-  outline: 2px solid #ffc140;
+  outline: 2px solid #E79B25;
   outline-offset: -0.3rem;
 }
 .resume-btn:hover a {
@@ -303,7 +304,7 @@
   }
 }
 .nav-logo {
-  color: #ffc140;
+  color: #E79B25;
 }
 
 .color-text:hover,
@@ -663,6 +664,7 @@ header {
 
 .contact {
   height: 50vh;
+  margin-bottom: 21.6vw;
 }
 
 .cases {
@@ -683,7 +685,7 @@ header {
   margin-right: 0.5rem;
   margin-left: 1vw;
   font-weight: 700;
-  color: #ffc140;
+  color: #E79B25;
 }
 
 .pd {
@@ -714,7 +716,7 @@ header {
 }
 
 .color-text {
-  color: #ffc140;
+  color: #E79B25;
 }
 
 .footer-container {
@@ -745,14 +747,14 @@ header {
   font-size: 1.5rem;
 }
 .iconify:hover {
-  color: #ffc140;
+  color: #E79B25;
 }
 
 .footer-contact-item {
   transition: all 0.3s ease-in-out;
 }
 .footer-contact-item:hover {
-  color: #ffc140;
+  color: #E79B25;
   transform: translateY(-13px);
 }
 
@@ -786,7 +788,7 @@ header {
   font-size: 1rem;
   font-weight: 300;
   margin-right: 0.5rem;
-  color: #ffc140;
+  color: #E79B25;
 }
 
 @media only screen and (min-width: 960px) {
@@ -913,7 +915,7 @@ header {
     width: 1px;
     height: 90px;
     margin: 0px auto;
-    background-color: #ffc140;
+    background-color: #E79B25;
   }
 
   .fixed-contact-item {
@@ -921,7 +923,7 @@ header {
     transition: all 0.3s ease-in-out;
   }
   .fixed-contact-item:hover {
-    color: #ffc140;
+    color: #E79B25;
     transform: translateY(-13px);
   }
   .fixed-contact-item .iconify {
@@ -945,7 +947,7 @@ header {
     width: 1px;
     height: 90px;
     margin: 0px auto;
-    background-color: #ffc140;
+    background-color: #E79B25;
   }
 
   .fixed-email-link {
@@ -959,7 +961,7 @@ header {
     transition: all 0.3s ease-in-out;
   }
   .fixed-email-link:hover {
-    color: #ffc140;
+    color: #E79B25;
     transform: translateY(-13px);
   }
 
@@ -999,23 +1001,6 @@ header {
   .skills-item p {
     opacity: 0.9;
     font-size: 1rem;
-  }
-
-  .bg-block {
-    position: relative;
-    overflow: hidden;
-  }
-
-  .color-block {
-    position: absolute;
-    background-color: #ffc140;
-    height: 90%;
-    width: 55%;
-    right: 15%;
-    bottom: 0%;
-    z-index: -3;
-    box-shadow: blue 0px 0px 0px 2px inset, white 10px -10px 0px -3px, #1fc11b 10px -10px, white 20px -20px 0px -3px, #ffd913 20px -20px, white 30px -30px 0px -3px, #ff9c55 30px -30px, white 40px -40px 0px -3px, #ff5555 40px -40px;
-    transform: rotate(10deg);
   }
 
   .container-contact {
@@ -1064,6 +1049,8 @@ header {
   align-items: center;
   height: 100vh;
   width: 100%;
+  background: url("https://images.unsplash.com/photo-1512551980832-13df02babc9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80");
+  background-size: cover;
 }
 .main video {
   height: 100%;
@@ -1083,23 +1070,40 @@ header {
 }
 
 .main-headline {
-  font-weight: 700;
+  background: url("/IMG/back.png");
+  font-weight: 900;
   font-size: clamp(2.5rem, 12vw, 8.3rem);
   overflow: hidden;
   color: #fff;
   margin-bottom: 0.5em;
   padding-left: 7.73vw;
+  -webkit-text-stroke: 1px white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: animateHeadline 9s linear infinite;
+          animation: animateHeadline 9s linear infinite;
 }
 
 .main-headline:nth-of-type(1) {
   margin-bottom: -0.4em;
 }
 
+@-webkit-keyframes animateHeadline {
+  100% {
+    background-position: 2000px 0;
+  }
+}
+
+@keyframes animateHeadline {
+  100% {
+    background-position: 2000px 0;
+  }
+}
 .bg-cases {
   background-color: teal;
   background: url("https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
   background: url("https://images.unsplash.com/photo-1618556450991-2f1af64e8191?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1064&q=80");
-  background-position: center;
+  background: url("https://images.unsplash.com/photo-1634408997827-191bdb96baa0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80");
   background-repeat: no-repeat;
   background-size: cover;
   height: 185vh;
@@ -1126,7 +1130,7 @@ header {
   height: 100%;
   transition: 0.5s ease;
   opacity: 1;
-  background: rgba(255, 193, 64, 0.5);
+  background: rgba(231, 155, 37, 0.5);
 }
 
 .card-picture-content:hover .profile-pic-overlay {
@@ -1138,7 +1142,7 @@ header {
   padding-right: 2.5rem;
 }
 .skills .iconify {
-  color: #ffc140;
+  color: #E79B25;
   margin-right: 0.3rem;
   margin-bottom: -0.3rem;
 }
@@ -1165,7 +1169,7 @@ header {
 }
 
 .nav-scrolled {
-  background-color: #ffc140;
+  background-color: #E79B25;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 }
 .nav-scrolled span,
