@@ -6,18 +6,17 @@ $type-characters: 25;
 .type-writer-container {
   padding: 0 0.5rem;
   margin: 0 auto;
-  font-family: monospace, sans-serif;
+  // font-family: monospace, sans-serif;
   min-height: 50vh;
   display: grid;
   place-content: center;
   text-align: center;
-  
 
   h1 {
     font-size: clamp(0.8rem, 6vw, 4rem);
     position: relative;
     font-family: monospace, sans-serif;
-    color: #fff;
+    color: $accent-clr;
     position: relative;
     width: max-content;
 
@@ -33,6 +32,7 @@ $type-characters: 25;
 
     &::before {
       background-color: $primary-color;
+
       animation: typewriter $type-speed steps($type-characters) 1s forwards;
     }
     &::after {
@@ -45,12 +45,30 @@ $type-characters: 25;
 }
 .subtitle {
   color: #fefefe;
-  font-size: 1rem;
-  font-weight: 400;
+  color: $accent-clr;
+  font-size: 12vw;
+  font-weight: 900;
   margin-top: 1rem;
   opacity: 0;
   transform: translateY(3rem);
-  animation: fadeInUp 2s ease 8s forwards;
+  animation: fadeInUp 1s ease 1s forwards;
+  -webkit-text-stroke: 2px $accent-clr;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+
+  &:hover {
+    animation: color-rotate 1s;
+    // -webkit-animation-iteration-count: infinite;
+    // animation-iteration-count: infinite;
+    // -webkit-animation-direction: alternate;
+    // animation-direction: alternate;
+  }
+}
+
+.smallSub {
+  font-size: 2vw;
+  display: none;
 }
 
 @keyframes typewriter {
@@ -61,7 +79,7 @@ $type-characters: 25;
 
 @keyframes blink {
   to {
-    background-color: black;
+    background-color: $primary-color;
   }
 }
 @keyframes fadeInUp {
@@ -74,7 +92,6 @@ $type-characters: 25;
 //type-writer end
 
 //fade-in
-
 
 //keyframe
 
@@ -105,89 +122,153 @@ $type-characters: 25;
   }
 }
 
-
 @keyframes color-rotate {
   from {
-      filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
   }
   to {
-      filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
   }
 }
 
-.nav-logo{
+.nav-logo {
   color: $accent-clr;
 }
 .color-text:hover,
 .nav-logo:hover {
   animation: color-rotate 1s;
-  animation-iteration-count: infinite; 
+  animation-iteration-count: infinite;
   animation-direction: alternate;
   font-weight: 700;
 }
 
-
 .jello-horizontal {
-	        animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
 }
 
 @-webkit-keyframes jello-horizontal {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
   30% {
     -webkit-transform: scale3d(1.25, 0.75, 1);
-            transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
   }
   40% {
     -webkit-transform: scale3d(0.75, 1.25, 1);
-            transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
   }
   50% {
     -webkit-transform: scale3d(1.15, 0.85, 1);
-            transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
   }
   65% {
     -webkit-transform: scale3d(0.95, 1.05, 1);
-            transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
   }
   75% {
     -webkit-transform: scale3d(1.05, 0.95, 1);
-            transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
   }
   100% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
 }
 @keyframes jello-horizontal {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
   30% {
     -webkit-transform: scale3d(1.25, 0.75, 1);
-            transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
   }
   40% {
     -webkit-transform: scale3d(0.75, 1.25, 1);
-            transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
   }
   50% {
     -webkit-transform: scale3d(1.15, 0.85, 1);
-            transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
   }
   65% {
     -webkit-transform: scale3d(0.95, 1.05, 1);
-            transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
   }
   75% {
     -webkit-transform: scale3d(1.05, 0.95, 1);
-            transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
   }
   100% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.text-flicker-in-glow {
+  animation: text-flicker-in-glow 4s linear infinite both;
+}
+
+.wobble-hor-bottom {
+  animation: wobble-hor-bottom 0.8s infinite both;
+}
+@-webkit-keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+@keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+    transform: translateX(-6px) rotate(-1.2deg);
   }
 }

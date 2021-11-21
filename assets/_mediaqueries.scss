@@ -118,7 +118,7 @@
   }
 
   .credit-text {
-    font-size: 2vw;
+    font-size: 1.2vw;
   }
   .headline,
   .cases-headline {
@@ -302,8 +302,52 @@ margin-bottom: 0;
   padding-top: 2rem;
 }
 
+.section-headline {
+  font-size: 3.54rem;
 
+}
 
+.profile-img{
+  width: 40vw;
+  margin-bottom: 1vw;
+  }
+
+  .btn{
+    width:12rem;
+    padding: 2rem 0;
+  }
+
+  .subtitle{
+    font-size:3rem;
+  }
+  .smallSub{
+    font-size: 2vw;
+    display: block;
+  }
+
+  .contact-container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .block-fill{
+    display: block;
+    position: relative;
+  //overflow: hidden;
+ 
+  
+  }
+  .block{
+    position: absolute;
+    background-color:$accent-clr;
+    height:90vh;
+    width: 20%;
+    bottom:0;
+    z-index:-1;
+    right: 35%;
+  
+  
+  }
 }
 @media only screen and (min-width: 1240px) {
   .container-case {

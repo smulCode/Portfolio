@@ -39,7 +39,7 @@ header {
 .section-about,
 .container-case,
 .contact {
-  margin-bottom: 41.6vw;
+  // margin-bottom: 41.6vw;
   margin-left: auto;
   margin-right: auto;
   width: 84.5vw;
@@ -61,7 +61,7 @@ header {
 
 .section-headline {
   margin: 4.6vw 0;
-  font-size: 3.54rem;
+  font-size: 1.54rem;
   color: $accent-clr;
     -webkit-text-stroke: 1px $accent-clr;
   -webkit-background-clip: text;
@@ -245,12 +245,30 @@ display: none;
   background: url("https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
   background: url("https://images.unsplash.com/photo-1618556450991-2f1af64e8191?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1064&q=80");
   background: url("https://images.unsplash.com/photo-1634408997827-191bdb96baa0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80");
-  background-repeat: no-repeat;
-
+  // height:205vh;
   background-size: cover;
   background-attachment: fixed;
   background-attachment: fixed;
 }
 
 
+.profile-img{
+  position: relative;
+  width: 80vw;
+  margin-bottom: 6vw;
+  overflow: hidden;
+  }
+  
+  
+  .profile-picture ,.brand-picture{
+    width: 100%;
+    height:100%;
+    object-fit:contain;
+    
+    
+  }
+  .block-fill{
+    display: none;
+
+  }
  

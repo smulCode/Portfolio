@@ -1,18 +1,19 @@
 .btn {
   color: $secondary-color;
   background-color: transparent;
-  padding: 2vw 0;
+  padding: 1rem 0;
   text-transform: uppercase;
   border: 1px solid $accent-clr;
   transition: 0.6s;
   cursor: pointer;
   text-align: center;
-  width: 20vw;
+  width:8rem;
+  
 
   a {
     color: $text-clr;
     font-weight: 500;
-    font-size: 2vw;
+    font-size: 1rem;
   }
 }
 
@@ -58,6 +59,7 @@
   outline:  0.05rem solid $text-clr;
   outline-offset: -0.3rem;
   margin-left: 1em;
+  transition: 0.6s;
 
   a {
     color: $text-clr;
