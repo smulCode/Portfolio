@@ -7,8 +7,7 @@
   transition: 0.6s;
   cursor: pointer;
   text-align: center;
-  width:8rem;
-  
+  width: 8rem;
 
   a {
     color: $text-clr;
@@ -32,34 +31,35 @@
 .connect-btn {
   margin-left: 7.73vw;
   background-color: $primary-color;
-    outline: 2px solid $primary-color;
-    outline-offset: -0.3rem;
+  outline: 2px solid $primary-color;
+  outline-offset: -0.3rem;
 
-    &:hover {
-      background-color: $accent-clr;
-      border: 1px solid $primary-color;
-      outline-offset: -1px;
+  &:hover {
+    background-color: $accent-clr;
+    border: 1px solid $primary-color;
+    outline-offset: -1px;
     // box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
-    box-shadow: rgba($accent-clr, 0.4) 5px 5px, rgba($accent-clr, 0.3) 10px 10px, rgba($accent-clr, 0.2) 15px 15px, rgba($accent-clr, 0.1) 20px 20px, rgba($accent-clr, 0.05) 25px 25px;
-  
-      a {
-        color: $text-clr;
-        transition: 0.1s;
-        font-weight: 600;
-      }
+    box-shadow: rgba($accent-clr, 0.4) 5px 5px, rgba($accent-clr, 0.3) 10px 10px,
+      rgba($accent-clr, 0.2) 15px 15px, rgba($accent-clr, 0.1) 20px 20px,
+      rgba($accent-clr, 0.05) 25px 25px;
+
+    a {
+      color: $text-clr;
+      transition: 0.1s;
+      font-weight: 600;
     }
+  }
 }
-
-
 
 .resume-btn {
   padding: 1em 0;
   width: 8rem;
   background-color: $accent-clr;
-  outline:  0.05rem solid $text-clr;
+  outline: 0.05rem solid $text-clr;
   outline-offset: -0.3rem;
   margin-left: 1em;
   transition: 0.6s;
+  text-align: center;
 
   a {
     color: $text-clr;

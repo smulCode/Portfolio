@@ -59,7 +59,7 @@
   -webkit-text-stroke: 1px white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: animateHeadline 20s linear  infinite ;
+  animation: animateHeadline 20s linear infinite;
 }
 .main-headline:nth-of-type(1) {
   margin-bottom: -0.4em;
@@ -185,4 +185,3 @@
 .fade-in.appear {
   opacity: 1;
 }
-
