@@ -20,6 +20,8 @@
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     height: 100vh;
     justify-content: flex-start;
+    text-align: center;
+    
     
     
   }
@@ -71,6 +73,11 @@
     font-size: 1.4rem;
     font-weight: 500;
     color: $text-clr;
+    // color: $accent-clr;
+    font-weight: 900;
+    -webkit-text-stroke: 1px #111;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #fff;
   
     span {
       float: right;

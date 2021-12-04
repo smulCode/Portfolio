@@ -80,7 +80,7 @@
     text-align: center;
     height: 100%;
     box-shadow: none;
-    width: 50%;
+    width: 40%;
     background-color: transparent;
   }
 
@@ -99,6 +99,9 @@
     font-size: 1em;
     font-weight: 500;
     color: #fff;
+    -webkit-text-stroke: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #fff;
   }
 
   // .nav-link:hover {

@@ -71,99 +71,13 @@
   }
 }
 
-// .main-video {
-//   // display: none;
-//   z-index: -2;
 
-//   //   position: fixed;
-//   //   right: 0;
-//   //   bottom: 0;
-//   //   min-width: 100%;
-//   //   min-height: 100%;
-// }
-
-/// section
-
-// section {
-
-//   // font-size: 3em;
-//   // scroll-snap-align: start;
-//   // text-align: center;
-// }
-
-//
-
-// .container-section {
-//   scroll-snap-type: y mandatory;
-//   overflow-y: scroll;
-//   height: 100vh;
-// }
-
-////////////////////////////////
 
 .so-many-shadows {
   text-shadow: 0.025em 0.025em 0 tomato, 0.05em 0.05em 0 blueviolet,
     0.075em 0.075em 0 teal, 0.1em 0.1em 0 black;
 }
 
-//////Cards
-
-/////cards end
-
-// slider text
-// @keyframes bannermove {
-//   0% {
-//     transform: translateX(-50%);
-//   }
-//   100% {
-//     transform: translateX(0%);
-//   }
-// }
-
-// .about-pic {
-//   margin: 0 auto;
-//   width: 68vw;
-// }
-
-// .profile-pic {
-//   height: 100%;
-//   width: 100%;
-//   object-fit: cover;
-
-//   border-radius: 3%;
-//   box-shadow: 0 0 0 1px tomato, 0 0 0 2px blueviolet, 0 0 0 3px teal,
-//     0 0 0 4px black, 0 0 0 5px #405378;
-
-//   border-radius: 3%;
-// }
-
-// .profile-pic:hover {
-//   height: 100%;
-//   width: 100%;
-//   object-fit: contain;
-// }
-
-// .profile-pic-overlay {
-//   position: absolute;
-//   bottom: 0;
-//   left: 0;
-//   width: 100%;
-//   height: 100%;
-//   transition: 0.5s ease;
-//   opacity: 1;
-//   background: rgba($accent-clr, 0.5);
-// }
-
-// .about-pic {
-//   position: relative;
-// }
-// .card-picture-content:hover .profile-pic-overlay {
-//   opacity: 0;
-// }
-
-////about end
-
-//
 
 .nav-scrolled {
   background-color: $accent-clr;
