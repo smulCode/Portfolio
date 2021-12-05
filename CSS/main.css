@@ -593,9 +593,10 @@
 }
 @media only screen and (min-width: 960px) {
   .case-list {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 8vw;
   }
 
   .case-item {
@@ -742,6 +743,12 @@
     width: 100%;
     border-radius: 13px;
     transform: skewY(-20deg);
+  }
+}
+@-moz-document url-prefix() {
+  .card {
+    background: #111;
+    border-bottom: 1px solid #fff;
   }
 }
 html {
