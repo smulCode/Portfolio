@@ -142,7 +142,13 @@
   }
 
 
-
+  .headline-white{
+    -webkit-text-stroke: 1px $text-clr;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: $primary-color;
+    font-weight: 800;
+    margin-left: 0;
+  }
 
   .container-case {
     padding: 0 1vw;

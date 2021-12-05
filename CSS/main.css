@@ -142,7 +142,7 @@
 }
 
 .nav-link {
-  font-size: 4rem;
+  font-size: 3.4rem;
   font-weight: 500;
   color: #fff;
   font-weight: 900;
@@ -804,9 +804,11 @@ header {
 }
 
 .headline-white {
-  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke: 1px #111;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: #111;
+  -webkit-text-fill-color: #fff;
+  font-weight: 900;
+  margin-left: 5vw;
 }
 
 .section-headline::before {
@@ -1094,6 +1096,14 @@ header {
   .headline,
 .cases-headline {
     padding-left: 1vw;
+  }
+
+  .headline-white {
+    -webkit-text-stroke: 1px #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #111;
+    font-weight: 800;
+    margin-left: 0;
   }
 
   .container-case {

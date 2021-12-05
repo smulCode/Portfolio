@@ -68,9 +68,11 @@ header {
   -webkit-text-fill-color: $primary-color;
 }
 .headline-white{
-  -webkit-text-stroke: 1px $text-clr;
+  -webkit-text-stroke: 1px $primary-color;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: $primary-color;
+  -webkit-text-fill-color: $text-clr;
+  font-weight: 900;
+  margin-left: 5vw;
 }
 
 .section-headline::before {
