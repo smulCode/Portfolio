@@ -65,19 +65,19 @@
     padding-top: 5rem;
   }
   .nav-item {
-    border-top: 1px solid rgba(204, 204, 204, 0.774);
+    border-top: 1px solid rgba(204, 204, 204, 0.185);
     padding: 1em;
     padding-left:2em;
   }
   .nav-link {
-    font-size: 1.4rem;
+    font-size:4rem;
     font-weight: 500;
     color: $text-clr;
     // color: $accent-clr;
     font-weight: 900;
-    -webkit-text-stroke: 1px #111;
+    -webkit-text-stroke: 1px $accent-clr;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: #fff;
+    -webkit-text-fill-color: #000;
   
     span {
       float: right;
