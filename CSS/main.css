@@ -138,26 +138,26 @@
 .nav-item {
   border-top: 1px solid rgba(204, 204, 204, 0.185);
   padding: 1em;
-  padding-left: 2em;
 }
 
 .nav-link {
-  font-size: 2.6rem;
+  font-size: 1.6rem;
   font-weight: 500;
   color: #fff;
   font-weight: 900;
   -webkit-text-stroke: 1px #E79B25;
   -webkit-background-clip: text;
   -webkit-text-fill-color: #000;
+  width: 100%;
+  height: 100%;
+  padding: 0 40%;
+  transition: 0.5s;
+}
+.nav-link:hover {
+  color: #fff;
 }
 .nav-link span {
   float: right;
-}
-
-.nav-link:hover {
-  color: #fff;
-  transition: 0.5s;
-  border-bottom: 2px solid #fff;
 }
 
 .nav-logo {

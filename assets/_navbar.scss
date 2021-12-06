@@ -62,10 +62,10 @@
 .nav-item {
   border-top: 1px solid rgba(204, 204, 204, 0.185);
   padding: 1em;
-  padding-left: 2em;
+//  border:1px solid blue
 }
 .nav-link {
-  font-size: 2.6rem;
+  font-size: 1.6rem;
   font-weight: 500;
   color: $text-clr;
   // color: $accent-clr;
@@ -73,17 +73,26 @@
   -webkit-text-stroke: 1px $accent-clr;
   -webkit-background-clip: text;
   -webkit-text-fill-color: #000;
+  // border: 1px solid red;
+  width: 100%;
+  height: 100%;
+  padding:0 40%;
+  transition: 0.5s;
+
+  &:hover{
+    color: $text-clr;
+    // background:red;
+    //  border-bottom: 2px solid $secondary-color;
+
+  }
+  
 
   span {
     float: right;
   }
 }
 
-.nav-link:hover {
-  color: $text-clr;
-  transition: 0.5s;
-  border-bottom: 2px solid $secondary-color;
-}
+
 
 .nav-logo {
   font-size: 1.5rem;
